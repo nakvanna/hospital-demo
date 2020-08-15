@@ -253,8 +253,8 @@
           check_date: '',
           doctor: '',
           photo: '',
-          // hostname: 'https://api.visai.cloudware.com.kh/',
-          hostname: 'http://localhost:3030/',
+          hostname: 'https://api.hospital.demo.cloudware.com.kh/',
+          // hostname: 'http://localhost:3030/',
         }
       }
     },
