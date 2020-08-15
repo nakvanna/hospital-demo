@@ -83,7 +83,7 @@
         editorInit: {
           max_height:650,
           menubar: true,
-          images_upload_url: 'http://localhost:3000/file-upload',
+          images_upload_url: 'http://localhost:3030/file-upload',
           automatic_uploads: true,
           images_reuse_filename: true,
           relative_urls: false,

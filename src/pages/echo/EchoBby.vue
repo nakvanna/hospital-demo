@@ -254,7 +254,7 @@
           doctor: '',
           photo: '',
           // hostname: 'https://api.visai.cloudware.com.kh/',
-          hostname: 'http://localhost:3000/',
+          hostname: 'http://localhost:3030/',
         }
       }
     },

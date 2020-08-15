@@ -4,7 +4,7 @@ const cors = require('cors')
 require('dotenv').config();
 // mongodb connection
 const mongoose = require('mongoose');
-const localUri = 'mongodb://localhost/visai-hospital-db';
+const localUri = 'mongodb://localhost/hospital-demo-db';
 mongoose.connect(localUri, {useNewUrlParser: true, useCreateIndex: true,useUnifiedTopology:true,useFindAndModify:false});
 // end mongodb connection
 

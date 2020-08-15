@@ -2,7 +2,7 @@ import { LocalStorage } from 'quasar'
 import axios from 'axios'
 let $http = axios.create({
   // baseURL: 'https://api.visai.cloudware.com.kh/'
-  baseURL: 'http://localhost:3000/'
+  baseURL: 'http://localhost:3030/'
 });
 let token = LocalStorage.getItem("userInfo");
 if (token) {
