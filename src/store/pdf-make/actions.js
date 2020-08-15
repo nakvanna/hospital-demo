@@ -96,7 +96,7 @@ export async function printSale({commit}, data) {
     },
     pageMargins: [10, 0, 10, 20],
     content: [
-      {text: 'Hospital System', width: 300, alignment: 'center', fontSize: 18},
+      {text: 'Hospital System Invoice', width: 300, alignment: 'center', fontSize: 18},
       {text: 'អ្នកទិញ៖ ' + pt.lname + ' ' + pt.fname, style: 'pt'},
       {text: 'ចំនួន៖ ' + dtt.length + ' មុខ', style: 'pt'},
       {
