@@ -261,6 +261,15 @@
               </q-item>
             </q-list>
           </q-expansion-item>
+          <q-separator/>
+          <q-item @click="viewInstruction" clickable v-ripple exact>
+            <q-item-section avatar>
+              <q-icon name="fas fa-chalkboard-teacher"/>
+            </q-item-section>
+            <q-item-section>
+              ការណែនាំ
+            </q-item-section>
+          </q-item>
         </q-list>
       </q-scroll-area>
     </q-drawer>
@@ -333,6 +342,9 @@
       },
     },
     methods: {
+      viewInstruction(){
+        window.open('https://api.hospital.demo.cloudware.com.kh/files/Instruction.pdf', '_blank')
+      },
       filter(val, update) {
         if (this.options === null) {
           // load data
