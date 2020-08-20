@@ -343,7 +343,7 @@
     },
     methods: {
       viewInstruction(){
-        window.open('https://api.hospital.demo.cloudware.com.kh/files/Instruction.pdf', '_blank')
+        window.open('https://api.hospital.demo.cloudware.com.kh/files/hospital-guide-book.pdf', '_blank')
       },
       filter(val, update) {
         if (this.options === null) {
